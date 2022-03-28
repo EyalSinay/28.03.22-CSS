@@ -1,0 +1,12 @@
+.box{
+    display: inline-block;
+    width: 20%;
+    background-color: aquamarine;
+}
+
+@media all and (max-width: 800px){
+    .box{
+        display: block;
+        width: 100%;
+    }
+}

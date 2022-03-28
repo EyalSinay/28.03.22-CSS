@@ -1,0 +1,23 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#red{
+    background-color: red
+}
+
+#yellow{
+    background-color: yellow
+}

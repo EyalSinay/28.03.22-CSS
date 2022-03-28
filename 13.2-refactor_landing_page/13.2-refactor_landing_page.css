@@ -1,0 +1,119 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: rgba(0, 0, 0, 0.800);
+    color: brown;
+    text-align: center;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+    background-color: #6495ED;
+    border-radius: 30px;
+}
+
+/* nav{
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 100%;
+
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+nav li a{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: brown;
+}
+
+nav li a:hover{
+    background-color: rgba(165, 42, 42, 0.500);
+} */
+
+.logo{
+    background: none;
+    border: none;
+    border-radius: 30px;
+    margin: 15px;
+    float: left;
+}
+
+.logo img{
+    width: 180px;
+    height: 90px;
+}
+
+.logo:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    opacity: 0.5;
+}
+
+.headings h1{
+    display: inline-block;
+}
+
+#profile_picture {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.contact-now{
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 30px;
+}
+
+.contact-now label{
+    display: block;
+}
+
+.contact-now input{
+    background-color: brown;
+    border-radius: 10px;
+    margin: 16px;
+    padding: 8px;
+}
+
+footer .links{
+    padding: 40px;
+}
+
+footer .links ul{
+    list-style: none;
+    margin: auto;
+}
+
+footer .links li{
+    display: inline;
+    margin: 0 30px;
+}
+
+footer .links img{
+    width: 30px;
+    height: 30px;
+}
+
+footer .links a:hover{
+    opacity: 0.5;
+}
